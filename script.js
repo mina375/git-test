@@ -12,6 +12,7 @@ $(function(){
       $('.burger-btn').removeClass('close');//.btn_triggerのcloseクラスを削除
       $('body').removeClass('noscroll');
     });
+    //aaaaa
   };
   });
 });
