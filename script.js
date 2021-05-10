@@ -10,7 +10,7 @@ $(function(){
       $('.nav-item>a').on('click',function(){//.nav-item>aをクリックすると
       $('.nav-list').removeClass('slide-in');//.nav-wrapperが0.5秒でフェードアウト(メニューのフェードアウト)
       $('.burger-btn').removeClass('close');//.btn_triggerのcloseクラスを削除
-      $('body').removeClass('noscroll');//bodyのnoscrollクラスを削除
+      $('body').removeClass('noscroll');
     });
   };
   });
